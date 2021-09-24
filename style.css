@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  overflow: hidden;
+} 
+.cabecalho li {
+  color: black;
+  float: right;
+  padding: 10px;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: rgba(0, 0, 0, 0.232) 0.1em 0.1em 0.1em;
+} 
+.cabecalho li a {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+.logo h2 {
+  background-color: black;
+  float: left;
+  color: white;
+  padding: 5px; 
+  margin-left: 60px;
+}
+
+.home {
+  max-width: 1000px;
+  width: 100%;
+  height: 650px;
+  background-color: black;
+  margin: auto;
+
+  background: url(./images/brett-sayles2.jpg) no-repeat center fixed;
+  background-size: cover; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  overflow: hidden;
+  position: relative;
+} 
+.main {
+  max-width: 70%;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0.409);
+  color: white;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+.main h1 {
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.613) 0.1em 0.1em 0.1em;
+  font: 80px bold;
+} 
+.por-gf {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.613) 0.1em 0.1em 0.1em;
+}
+.por-gf p::before, .por-gf p::after {
+  content: ' ';
+  position: absolute;
+  width: 5%;
+  border-top: 1px solid #c78b2f;
+  margin-top: 1.4%; 
+} 
+.por-gf p::before {
+  margin-left: -6%;
+}
+.por-gf p::after {
+  margin-left: 10px;
+} 
+.copy-art {
+  background-color: rgba(255, 255, 255, 0.443);
+  color: black;
+  text-shadow: rgba(0, 0, 0, 0.402) 0.1em 0.1em 0.1em;
+  font: 15px bold;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+} 
+.header { 
+  text-align: center; 
+} 
+.header h1 {text-shadow: rgba(0, 0, 0, 0.259) 0.1em 0.1em 0.1em;
+display: inline;} 
+.header a { float: right; margin-top: 6px;}
+header .contato {
+  float: right;
+  margin-right: 5px;
+  /*text-decoration: none;*/
+  font-family: 'Roboto', sans-serif;
+  text-shadow: rgba(0, 0, 0, 0.232) 0.1em 0.1em 0.1em;
+  color: black;
+  margin-top: 8px;
+} 
+.arts {
+  width: 100%;
+  height: 460px;
+} 
+.arts h1 {color: black;}
+
+.arts-list div {
+  width: 16%;
+  height: 400px;
+  display: inline-block;
+  margin-top: 5px;
+} 
+.imga {
+  margin-left:15px;
+  background: url(./images/art1.jpg) no-repeat center;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+}
+.imgb {
+  background: url(./images/art2.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+}
+.imgc {
+  background: url(./images/art3.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+}
+.contenteSobre {
+  max-width: 1180px;
+  margin: auto;
+}
+.titleSobre {
+  padding: 30px;
+  border-left: 6px solid blanchedalmond;
+  margin-top: 50px;
+}
+.titleSobre h1 {
+  font-size:  40px;
+  font-family: 'Birthstone', cursive;
+}
+.textSobre { 
+  display: inline-block;
+  max-width: 350px;
+  margin-right: 5%;
+  margin-top: 50px;
+  margin-bottom: 10%;
+} 
+.textSobre h2 {
+  margin-bottom: 30px;
+  color: blanchedalmond;
+}
+.imgsobre { 
+  display: inline-block;
+  float: right; 
+  margin-top: 50px;
+  margin-right: 8%;
+} 
+.imgsobre img {
+  width: 235px;
+}
+.contenteCont {
+  max-width: 1180px;
+  margin: auto;
+}
+.contenteCont h1 {
+  font-family: 'Birthstone', cursive;
+  font-size: 40px;
+}
+.map-responsive {
+  display: inline-block;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.infosCont {
+  display: inline-block;
+  float: right;
+  margin-right: 140px;
+  padding-left: 20px;
+  margin-top: 0px;
+  border-left: 5px solid bisque;
+}
+.infosCont p {
+  margin: 2px;
+}
+.wpp a {
+  color: bisque;
+}
+.ftlocal {
+  margin-top: 20px;
+  display: inline-block;
+}
+.ftlocal img{
+  max-width: 400px;
+}
+
+@media screen and (max-width: 910px) {
+  .arts-list div {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 4px;
+    margin-right:px;
+    height: 300px;
+    width: 32%;
+  } 
+  .arts {
+    height: 660px;
+  }
+  .imgsobre {
+    float: none;
+    display: block;
+    text-align: center;
+  } 
+  .imgsobre img {
+    width: 400px;
+  }
+  .textSobre {
+    margin-bottom: 0;
+    margin-left: 5px;
+  }
+  .titleSobre {
+    margin-left: 10%;
+  }
+  .contenteCont {
+    text-align: center;
+  } 
+  .infosCont {
+    float: none;
+    margin: auto;
+  }
+  .contenteCont h1 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .logo h2 {
+    float: none;
+    text-align: center;
+    margin: 0;
+  } 
+  .main {
+    max-width: 100%;
+    width: 100%;
+  } 
+  .arts-list div {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 4px;
+    margin-right:px;
+    height: 300px;
+    width: 48%;
+  } 
+  .arts {
+    height: 960px;
+  } 
+  .textSobre {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 350px;
+  }
+  .imgsobre {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .imgsobre img {
+    width: 350px;
+  }
+  .titleSobre {
+    width: 350px;
+    display: block;
+    margin: auto;
+    /*margin-left: 13px;*/
+    margin-bottom: 13px;
+    margin-top: 30px;
+  }
+  .contenteCont {
+    width: 100%;
+  }
+  .infosCont {
+    margin-left: 6px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .ftlocal img {
+    width: 270px;
+  }
+  .map-responsive iframe {
+    max-width: 100%;
+  }
+} 
